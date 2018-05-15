@@ -53,14 +53,14 @@ DB_AUTO_UPGRADE = False
 # used for that class below.
 # By default, the knowledge repo offers:
 # ['debug', 'oauth2', 'bitbucket', 'github', 'google']
-AUTH_PROVIDERS = []
+AUTH_PROVIDERS = ['github']
 
 # If you are going to use a OAuth provider, you will need to specify client ids
 # and private tokens. This can be done by instantiating instances of
 # `OAuth2Provider` and adding them to the above list, or by specifying OAuth
 # connection properties as demonstrated below for the GitHub authenticator.
-# OAUTH_GITHUB_CLIENT_ID = '<client id>'
-# OAUTH_GITHUB_CLIENT_SECRET = '<client secret>'
+ OAUTH_GITHUB_CLIENT_ID = 'f8a6b922ce3d8ce52d65'
+ OAUTH_GITHUB_CLIENT_SECRET = ''
 
 # To configure a generic OAuth provider that is not one of the presets
 # provided, you may use the provider 'oauth2' which creates an empty,
